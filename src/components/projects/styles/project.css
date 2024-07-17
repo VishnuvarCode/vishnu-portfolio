@@ -5,6 +5,7 @@
 	border-radius: 20px;
 	opacity: 0.8;
 	height: 100%;
+	overflow-y: auto;
 }
 
 .project a {
@@ -13,7 +14,7 @@
 
 .project:hover {
 	/* background: #fafafa; */
-	background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+	background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
@@ -69,5 +70,42 @@
 @media (max-width: 600px) {
 	.project {
 		height: 300px;
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+	.project {
+		height: 300px;
+		font-size: 13px;
+		overflow-y: scroll; /* Enable vertical scrolling */
+		-ms-overflow-style: none;  /* Hide scrollbar for Internet Explorer and Edge */
+		scrollbar-width: none;  /* Hide scrollbar for Firefox */
+	}
+	
+	.project-title {
+		font-size: 13px;
+	}
+
+	/* Hide scrollbar for WebKit browsers */
+	.project::-webkit-scrollbar {
+		display: none;
+	}
+
+	/* Track */
+	.project::-webkit-scrollbar-track {
+		box-shadow: inset 0 0 5px rgb(154, 152, 152);
+		border-radius: 10px;
+	}
+
+	/* Handle */	
+	.project::-webkit-scrollbar-thumb {
+		background: rgb(154, 152, 152);
+		border-radius: 10px;
+	}
+
+	/* Handle on hover */
+	.project::-webkit-scrollbar-thumb:hover {
+		background: rgb(154, 152, 152);
 	}
 }
