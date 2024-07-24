@@ -4,7 +4,7 @@ const INFO = {
 		name: "Vishnuraj V.",
 		email: "vishnuvishnu31221@gmail.com",
 		logo: "../logo.jpg",
-	}, 
+	},
 
 	socials: {
 		twitter: "https://twitter.com/",
@@ -35,7 +35,7 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Employee attendance and Payroll application, Project 1",
+			title: "1. Employee attendance and Payroll application",
 			description:
 				"Developed a financial application, Moneta, catering to personalized budgeting and expense tracking needs.",
 			logo: "../react-logo.png",
@@ -45,7 +45,7 @@ const INFO = {
 		},
 
 		{
-			title: "Educational institution application, Project 2",
+			title: "2. Educational institution application",
 			description:
 				"Implemented a web-based educational institutions application tailored for collaborative learning in educational institutions. The application facilitated communication and information dissemination among staff, heads of departments, and principals.",
 			logo: "../react-logo.png",
@@ -54,16 +54,16 @@ const INFO = {
 		},
 
 		{
-			title: "Alloys, Project 3",
+			title: "3. Forging, Casting, Machine Shop Inventory System",
 			description:
-				"Collaborated on the development of an e-commerce platform for sports equipment.",
+				"Contributed to the creation of a web-based inventory system for a manufacturing company specializing in carbon steel, low alloy steel, and stainless steel castings & forgings. The application aimed at streamlining inventory management and tracking.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png",
 			// linkText: "View Project",
 			// link: "https://github.com",
 		},
 
 		{
-			title: "Sport cycle, Project 4",
+			title: "4. Sport cycle",
 			description:
 				"This ASP.NET project allows clients to manage and track machine operations, purchase and payment details, spare parts inventory, and expenses. It generates comprehensive reports and provides a grid view for easy data visualization. Clients can also book slots via phone and email and keep track of customer details and payments.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png",
@@ -72,10 +72,10 @@ const INFO = {
 		},
 
 		{
-			title: "A TO Z motors, Project 5",
+			title: "5. A TO Z motors",
 			description:
-				"Contributed to the creation of a web-based inventory for a manufacturing company.",
-			logo: "../react-logo.png",
+				"Created a web application for an automotive company to manage vehicle inventory, sales, and customer interactions.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png",
 			// logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			// linkText: "View Project",
 			// link: "https://github.com",

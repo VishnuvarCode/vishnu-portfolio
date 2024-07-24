@@ -15,14 +15,11 @@ const Projects = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-
 	return (
 		<React.Fragment>
 			<Helmet>
 				<title>{`Projects | ${INFO.main.title}`}</title>
-				<meta
-					name="keywords"
-				/>
+				<meta name="keywords" />
 			</Helmet>
 
 			<div className="page-content">
@@ -39,11 +36,11 @@ const Projects = () => {
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I'm passionate about open-source development and
-							continuously working on a variety of projects. I
+							I’m passionate about open-source development and
+							continuously work on a variety of projects. I
 							believe in the power of collaboration and learning
-							from each other. If you're interested in any of the
-							projects I've worked on, please feel free to explore
+							from each other. If you’re interested in any of the
+							projects I’ve worked on, please feel free to explore
 							the code, suggest improvements, or contribute your
 							own enhancements.
 						</div>
