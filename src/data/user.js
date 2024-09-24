@@ -57,7 +57,7 @@ const INFO = {
 			title: "3. Forging, Casting, Machine Shop Inventory System",
 			description:
 				"Contributed to the creation of a web-based inventory system for a manufacturing company specializing in carbon steel, low alloy steel, and stainless steel castings & forgings. The application aimed at streamlining inventory management and tracking.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png",
+			logo: "../react-logo.png",
 			// linkText: "View Project",
 			// link: "https://github.com",
 		},
